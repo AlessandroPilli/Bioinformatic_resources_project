@@ -45,9 +45,7 @@ library(igraph)
 Loading the required data
 ```{r, include=FALSE}
 
-my_dir <- "C:/Users/alepi/OneDrive/Desktop/university/first year/second semester/bioinformatics/Bioinformatic Resources/project/"
-setwd("C:/Users/alepi/OneDrive/Desktop/university/first year/second semester/bioinformatics/Bioinformatic Resources/project/")
-setwd("D:/ALESSANDRO/UniTN/first_year/second semester/bioinformatics/Bioinformatic Resources/project")
+my_dir <- "Your/working/directory"
 load("Liver_hepatocellular_carcinoma.RData")
 ensembl <- useEnsembl(biomart = "ensembl",dataset = "hsapiens_gene_ensembl", mirror = "useast")
 ```
